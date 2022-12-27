@@ -14,7 +14,7 @@ function Terms () {
                 <p><li>The stall booking voucher which Wingrow issues to a Farmer is solely based on the information provided or updated by the Wingrow’s Farmers Market Organizer regarding the stall availability.</li></p>
                 <p><li>The amenities, services, locations, fares, schedule, Farmer Market, stall availability and any other details pertaining to the stall booking service are provided by the Wingrow Agritech.</li></p>
                 <p><li>Wingrow Agritech Producer Company Limited is the licensed owner of the brand Stall Booking Platform and the website www.wingrowagritech.com. As a visitor to the Site/ Customer you are advised to please read the Term & Conditions carefully. By accessing the services provided by the Site you agree to the terms provided in this Terms & Conditions document.</li></p>
-                <h3 class="city">PERSONAL INFORMATION</h3>
+                <h3 class="city">PRIVACY POLICY</h3>
                 <p>As part of the registration process on the Site, Wingrow Agritech may collect the following personally identifiable information about you: Name including first and last name, alternate email address, mobile phone number and contact details, Postal code, Demographic profile (like your age, gender, occupation, education, address etc.) and information about the pages on the site you visit/access, the links you click on the site, the number of times you access the page and any such browsing information.</p>
 
                 <h3 class="city">ACCOUNT & REGISTRATION OBLIGATIONS</h3>
