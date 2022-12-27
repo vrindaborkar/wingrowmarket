@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+
+.admin_main_component {
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center; */
+    padding: 50px;
+}
+
+.admin_secondary_header {
+    display: flex;
+    height: 10vh;
+    width: 99vw;
+    margin: 0 1vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_filter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    overflow: auto;
+    background-color: white;
+    border: 2px solid #000;
+    box-shadow: 24px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.overalldata_header {
+    flex: 1 1;
+    /* letter-spacing: 1.5px; */
+    font-size: 1.8rem;
+    font-weight: 600;
+    background: linear-gradient(105.42deg, #3AA54B 33.61%, #107C55 80.31%);
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 60px 10px 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.filter_btn_admin {
+    border: none;
+    background-color: white;
+    margin: 10px;
+}
+
+
+.customers_count {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: #fff;
+    background: linear-gradient(105.42deg, #3AA54B 33.61%, #107C55 80.31%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 50%;
+    margin: 30px auto auto auto;
+    /* padding: 10px; */
+}
+
+.header_items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.header_items_center {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.header_items_filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+
+.date_picker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date_picker_label {
+    /* width: 100%; */
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 15px;
+}
+
+.filter-market{
+    font-size: 15px; 
+}
+
+.cards_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin: 1rem;
+    padding: .5rem;
+}
+
+.card_layout {
+    box-shadow: #3AA54B 0px 1px 10px;
+    margin: 1rem;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 5px solid #3AA54B;
+    /* background: linear-gradient(to top right, #99ff99 18%, #99ff99 70%); */
+    border-radius: 50%;
+}
+
+.filter_btn {
+    padding: 0.5rem;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #3AA54B;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.farmers_data_entries {
+    width: 100%;
+    height: 100%;
+    min-height: 80vh;
+    min-width: 100vw;
+}
+
+.cancellation_feed {
+    width: 100%;
+    height: 100%;
+    min-height: 80vh;
+    min-width: 100vw;
+}
+
+.farmers_entries {
+    width: 90%;
+    height: 80vh;
+    margin: 1rem auto;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.cancellation_feed_container {
+    width: 90%;
+    height: 80vh;
+    margin: 1rem auto;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.farmers_entries_nav {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    background-color: #3aa54c;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.farmers_entries_body {
+    overflow: auto;
+    flex: 1;
+    height: 70vh;
+}
+
+.farmers_entries_section {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    border-bottom: 1px black solid;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.farmers_entries_nav_farmername {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.farmers_entries_nav_farmerstype,.farmers_entries_nav_farmersContact,.farmers_entries_nav_farmersaddress {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.cancellation_header {
+    text-align: center;
+    height: 8vh;
+    padding: 1rem;
+    background-color: #3aa54b;
+}
+
+.cancellation_body {
+    width: 100%;
+    height: 72vh;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.cancellation_card {
+    font-size: 1.2rem;
+    width: 300px;
+    height: 300px;
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: rgb(178, 223, 208);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.quantity{
+    margin-top: 15px;
+}
+.amount{
+    margin-top: 15px;
+}
+
+.refund_btn_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.refund_btn {
+    width: 150px;
+    border: none;
+    padding: 0.2rem;
+    border-radius: 10px;
+}
+
+.refund_btn:hover {
+    cursor: pointer;
+    background-color: rgb(201, 186, 186);
+}
+
+.admin_links {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* min-height: 20vh; */
+    width: fit-content;
+    padding: 2rem;
+    margin: auto;
+}
+
+@media (max-width: 798px) {
+    .cancellation_card {
+        margin: 1rem auto;
+    }
+
+    .card_layout {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cards_container {
+        margin: 0;
+    }
+
+    .admin_links {
+        padding: 2rem;
+        margin: 1rem;
+        width: 100%;
+    }
+}
+
+/* Added */
+
+.farmers-stats-main {
+    border: 1px solid #3AA54B;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    width: 70vw;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.total-number {
+    font-size: 30px;
+}
+
+.tag {
+    font-size: 20px !important;
+}
+
+.farmers-stats-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card-content {
+    margin-bottom: 0 !important;
+}
+
+.total-stall-market {
+    border-right: 2px dashed #3AA54B;
+    padding: 25px 60px 0 0;
+}
+
+.total-customers {
+    border: 1px solid #3AA54B;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    width: 40vw;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+.stats {
+    position: absolute;
+    left: 30vw;
+    top: -4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.farmers-type {
+    position: absolute;
+    left: 30vw;
+    top: -8%;
+}
+
+.no-consumers {
+    position: absolute;
+    left: 30%;
+    top: -9%;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin_links_details {
+    background: linear-gradient(105.42deg, #3AA54B 33.61%, #107C55 80.31%);
+    border-radius: 50px;
+    color: white;
+    padding: 20px 40px;
+    margin-right: 15px;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.admin_link{
+    background: linear-gradient(105.42deg, #3AA54B 33.61%, #107C55 80.31%);
+    border-radius: 50px;
+    color: white;
+    padding: 20px 40px;
+    margin-right: 15px;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 550px) {
+
+    .admin_main_component {
+        padding: 20px;
+    }
+
+    .farmers-stats-main {
+        padding: 10px;
+        margin: auto;
+        width: 90vw;
+        margin-bottom: 30px;
+    }
+
+    .overalldata_header {
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 5px 20px 5px 6px;
+        border-radius: 7px;
+    }
+
+    .farmers-stats-holder {
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+
+    .total-stall-market {
+        border-right: 0;
+        display: flex;
+        border-bottom: 2px dashed #3aa54b;
+        padding: 0px 0px 0 0;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .total-number {
+        font-size: 20px;
+    }
+
+    .tag {
+        font-size: 15px !important;
+        line-height: normal !important;
+    }
+
+    .customers_count {
+        width: 100px;
+        height: 100px;
+        font-size: 3rem;
+        margin: 20px auto auto auto;
+    }
+    .admin_links {
+        width: 100%;
+        padding: 0;
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+
+    .admin_links_details {
+        padding: 13px 30px;
+        font-size: 13px;
+    }
+    .admin_link {
+        padding: 13px 29%;
+        font-size: 13px;
+    }
+    .one{
+        margin: 30px 0;
+    }
+    .farmers-type {
+        top: -5%;
+      }
+    
+      .total-customers {
+        width: 70vw !important;
+      }
+    
+      .no-consumers {
+        left: 25%;
+      }
+}
+
+@media only screen and (min-width: 768px) {
+    .farmers-stats-main {
+        width: 90vw;
+    }
+    .overalldata_header {
+        padding: 10px 45px 10px 10px
+    }
+    .card_layout {
+        width: 150px;
+        height: 150px;
+    }
+    .total-number {
+        font-size: 25px;
+    }
+    .cards_container {
+        justify-content: space-between;
+    }
+    .total-customers {
+        width: 60vw;
+    }
+    .no-consumers {
+        left: 25%;
+    }
+}
+@media only screen and (min-width: 889px) {
+    .farmers-stats-main {
+        width: 70vw;
+    }
+    .stats {
+        left: 27vw;
+    }
+    .cards_container {
+        justify-content: center;
+    }
+    .farmers-type {
+        left: 27vw;
+    }
+    .total-customers {
+        width: 40vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
